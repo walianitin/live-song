@@ -20,12 +20,12 @@ export async function POST(req:NextRequest,res:NextResponse){
     try{
         if(!session?.user){
             return NextResponse.json({
-                message:"unorhraized user",
+                message:"unauthraized user",
                 user:session?.user,
                 status:403
             })
         }
-    //here is the main loigix
+    //here is the main logic
 //        const session=await getServerSession(authOptions);
         const user=session?.user;
         const data= CreatoStreamSchema.parse(await req.json());
