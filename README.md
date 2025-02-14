@@ -1,1 +1,16 @@
-![Screenshot 2025-02-14 at 15.59.13.png](attachment:17b47b78-11e1-448c-a013-1f1844b5c2a4:Screenshot_2025-02-14_at_15.59.13.png)
+Here’s a simplified version of the tasks without the complete check:
+
+1. **Initialize a NextJS Project**
+2. **Add NextAuth for authentication (Google)**
+3. **Create the schema for User, Stream, Upvotes**
+4. **Create endpoints that let:**
+   - Users add streams
+   - Users upvote/cancel upvote on streams
+   - Everyone fetch current streams with their upvotes
+5. **Create a websocket server where:**
+   - Users can subscribe to stream updates in a certain room
+   - Users get updates whenever upvotes change
+6. **Create the frontend:**
+   - Landing page
+   - Spaces page
+   - Individual space page
