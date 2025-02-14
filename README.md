@@ -1,4 +1,4 @@
-Here’s a simplified version of the tasks without the complete check:
+Check points need to be followed  
 
 1. **Initialize a NextJS Project**
 2. **Add NextAuth for authentication (Google)**
