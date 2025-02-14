@@ -1,0 +1,1 @@
+export const yt_regex="(?:https?:\/\/)?(?:www\.)?youtube\.com\/watch\?v=([\w-]{11})(?:&t=\d+s)?"
